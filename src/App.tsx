@@ -1,7 +1,7 @@
 const App = () => (
-  <div className="h-screen bg-dark-cyan bg-[url('/src/assets/bg-pattern-top.svg')]  bg-[right_bottom_26rem] bg-no-repeat">
-    <div className="h-full bg-transparent bg-[url('/src/assets/bg-pattern-bottom.svg')] bg-[left_bottom_-47rem] bg-no-repeat flex justify-center items-center">
-      <div className="bg-white rounded-2xl h-96 w-80">
+  <div className="h-screen bg-dark-cyan bg-[url('/src/assets/bg-pattern-top.svg')] bg-[right_7rem_bottom_20rem] md:bg-[left_-15rem_top_-31rem] bg-no-repeat">
+    <div className="h-full bg-transparent bg-[url('/src/assets/bg-pattern-bottom.svg')] bg-[left_8rem_bottom_-38rem] md:bg-[right_-15rem_bottom_-35rem] bg-no-repeat flex justify-center items-center">
+      <div className="bg-white rounded-2xl h-96 w-80 md:w-96">
         <div className="bg-[url('/src/assets/bg-pattern-card.svg')] h-1/3 rounded-t-2xl" />
         <div className="h-2/3 relative flex flex-col">
           <div className="flex justify-center mb-16">
