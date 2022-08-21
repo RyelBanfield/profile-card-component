@@ -11,4 +11,5 @@ export default defineConfig({
     { ...eslint({ include: 'src/**/*.+(js|jsx|ts|tsx)' }), enforce: 'pre' },
     react(),
   ],
+  base: '/profile-card-component/',
 });
