@@ -1,3 +1,6 @@
+/* eslint-disable import/no-absolute-path */
+import profilePic from '/src/assets/image-victor.jpg';
+
 const App = () => (
   <div className="h-screen bg-dark-cyan bg-[url('/src/assets/bg-pattern-top.svg')] bg-[right_7rem_bottom_20rem] md:bg-[left_-15rem_top_-31rem] bg-no-repeat">
     <div className="h-full bg-transparent bg-[url('/src/assets/bg-pattern-bottom.svg')] bg-[left_8rem_bottom_-38rem] md:bg-[right_-15rem_bottom_-35rem] bg-no-repeat flex justify-center items-center">
@@ -5,7 +8,7 @@ const App = () => (
         <div className="bg-[url('/src/assets/bg-pattern-card.svg')] h-1/3 rounded-t-2xl" />
         <div className="h-2/3 relative flex flex-col">
           <div className="flex justify-center mb-16">
-            <img src="/src/assets/image-victor.jpg" alt="Victor Crest" className="bg-white rounded-full absolute bottom-52 p-1" />
+            <img src={profilePic} alt="Victor Crest" className="bg-white rounded-full absolute bottom-52 p-1" />
           </div>
           <div className="mb-5">
             <div className="flex justify-center mb-1 text-lg">
